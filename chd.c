@@ -51,6 +51,7 @@ static char const *yowzitch =
     "\n"
     "  -c, --count=N         Display N characters per line [default=8]\n"
     "  -i, --ignore          Treat invalid characters as individual bytes\n"
+    "  -s, --start=N         Start N characters after start of input\n"
     "  -l, --limit=N         Stop after N characters of input\n"
     "  -r, --reverse         Reverse operation: convert dump output to chars\n"
     "      --help            Display this help and exit\n"
