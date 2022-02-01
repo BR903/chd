@@ -9,6 +9,7 @@ explicitly hard-coding UTF-8 encoding sequences.
 
   Building and Installing
 
-To build, simply run "make". The resulting executable runs standalone.
-If you wish to install the program to a shared location, just use
-cp(1).
+There is no configure script. To build, simply run "make". The
+existing executable runs standalone. To install, run "make install".
+By default the makefile installs chd under /usr/local, but you can
+override this by changing the value of the PREFIX variable.

@@ -43,7 +43,7 @@ static int const rawbyte = 0x10000000;	/* flag indicating a raw byte value */
 /* Online help.
  */
 static char const *yowzitch =
-    "Usage: chd [OPTIONS] [FILENAME]...\n"
+    "Usage: chd [OPTIONS] [FILENAME ...]\n"
     "Output a representation of the contents of FILENAME as character\n"
     "codepoints, similar to xxd but Unicode-aware. With multiple arguments,\n"
     "the files' contents are concatenated together. With no arguments, or\n"
